@@ -1,106 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spartacus Energy of New York</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script>
-        // Mobile Menu Toggle Script
-        function toggleMenu() {
-            const menu = document.querySelector("nav ul");
-            menu.classList.toggle("show");
-        }
+      // Mobile Menu Toggle Script
+      function toggleMenu() {
+        const menu = document.querySelector("nav ul");
+        menu.classList.toggle("show");
+      }
 
-        // Hide menu when a link is clicked (for small screens)
-        function hideMenu() {
-            const menu = document.querySelector("nav ul");
-            if (menu.classList.contains("show")) {
-                menu.classList.remove("show");
-            }
+      // Hide menu when a link is clicked (for small screens)
+      function hideMenu() {
+        const menu = document.querySelector("nav ul");
+        if (menu.classList.contains("show")) {
+          menu.classList.remove("show");
         }
+      }
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header Section -->
     <header>
-        <div class="container">
-            <div class="logo">
-                <!-- Placeholder for your Logo Image -->
-                <img src="path_to_your_logo.png" alt="Spartacus Energy Logo">
-            </div>
-            <h1>Spartacus Energy of New York</h1>
-            <nav>
-                <span class="menu-toggle" onclick="toggleMenu()">&#9776;</span> <!-- Menu Toggle Icon -->
-                <ul>
-                    <li><a href="#home" onclick="hideMenu()">Home</a></li>
-                    <li><a href="#about" onclick="hideMenu()">About Us</a></li>
-                    <li><a href="#services" onclick="hideMenu()">Services</a></li>
-                    <li><a href="#contact" onclick="hideMenu()">Contact</a></li>
-                </ul>
-            </nav>
+      <div class="container">
+        <div class="logo">
+          <!-- Placeholder for your Logo Image -->
+          <img src="path_to_your_logo.png" alt="Spartacus Energy Logo" />
         </div>
+        <h1>Spartacus Energy of New York</h1>
+        <nav>
+          <span class="menu-toggle" onclick="toggleMenu()">&#9776;</span>
+          <!-- Menu Toggle Icon -->
+          <ul>
+            <li><a href="#home" onclick="hideMenu()">Home</a></li>
+            <li><a href="#about" onclick="hideMenu()">About Us</a></li>
+            <li><a href="#services" onclick="hideMenu()">Services</a></li>
+            <li><a href="#contact" onclick="hideMenu()">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Hero Section -->
     <section id="home" class="hero">
-        <div class="container">
-            <h2>Powering New York with Green Energy</h2>
-            <p>Over 75% of our energy comes from renewable sources. Save money and the environment.</p>
-            <a href="#services" class="btn">Learn More</a>
-        </div>
+      <div class="container">
+        <h2>Powering New York with Green Energy</h2>
+        <p>
+          Over 75% of our energy comes from renewable sources. Save money and
+          the environment.
+        </p>
+        <a href="#services" class="btn">Learn More</a>
+      </div>
     </section>
 
     <!-- About Section -->
     <section id="about">
-        <div class="container">
-            <h2>About Spartacus Energy</h2>
-            <p>We are committed to providing affordable and sustainable energy solutions for both residential and commercial customers in New York. Our focus is on delivering reliable electricity and natural gas services while promoting the use of green energy sources.</p>
-            <img src="path_to_your_image.jpg" alt="About Us Image" class="placeholder-image">
-        </div>
+      <div class="container">
+        <h2>About Spartacus Energy</h2>
+        <p>
+          We are committed to providing affordable and sustainable energy
+          solutions for both residential and commercial customers in New York.
+          Our focus is on delivering reliable electricity and natural gas
+          services while promoting the use of green energy sources.
+        </p>
+        <img
+          src="path_to_your_image.jpg"
+          alt="About Us Image"
+          class="placeholder-image"
+        />
+      </div>
     </section>
 
     <!-- Services Section -->
     <section id="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="service-card">
-                <h3>Electricity Supply</h3>
-                <p>Get reliable and affordable electricity with over 75% sourced from renewable energy.</p>
-                <img src="path_to_your_image.jpg" alt="Electricity Service" class="placeholder-image">
-            </div>
-            <div class="service-card">
-                <h3>Natural Gas Supply</h3>
-                <p>Efficient and cost-effective natural gas solutions for your home or business.</p>
-                <img src="path_to_your_image.jpg" alt="Natural Gas Service" class="placeholder-image">
-            </div>
-            <div class="service-card">
-                <h3>Energy Savings Programs</h3>
-                <p>We offer a variety of plans and programs to help you save on your energy bills.</p>
-                <img src="path_to_your_image.jpg" alt="Energy Savings" class="placeholder-image">
-            </div>
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="service-card">
+          <h3>Electricity Supply</h3>
+          <p>
+            Get reliable and affordable electricity with over 75% sourced from
+            renewable energy.
+          </p>
+          <img
+            src="path_to_your_image.jpg"
+            alt="Electricity Service"
+            class="placeholder-image"
+          />
         </div>
+        <div class="service-card">
+          <h3>Natural Gas Supply</h3>
+          <p>
+            Efficient and cost-effective natural gas solutions for your home or
+            business.
+          </p>
+          <img
+            src="path_to_your_image.jpg"
+            alt="Natural Gas Service"
+            class="placeholder-image"
+          />
+        </div>
+        <div class="service-card">
+          <h3>Energy Savings Programs</h3>
+          <p>
+            We offer a variety of plans and programs to help you save on your
+            energy bills.
+          </p>
+          <img
+            src="path_to_your_image.jpg"
+            alt="Energy Savings"
+            class="placeholder-image"
+          />
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <p>Have questions? Get in touch with our support team for assistance.</p>
-            <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-        </div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p>
+          Have questions? Get in touch with our support team for assistance!
+        </p>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
     </section>
 
     <!-- Footer Section -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Spartacus Energy of New York. All Rights Reserved.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2024 Spartacus Energy of New York. All Rights Reserved.</p>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
